@@ -33,6 +33,7 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	compile 'org.xerial:sqlite-jdbc:3.25.2'
+	compile "org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
